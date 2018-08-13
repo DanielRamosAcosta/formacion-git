@@ -56,7 +56,7 @@ class LinkedList {
   }
 
   insertAt (index, value) {
-    //this.insertStart(value)
+    console.log(index, value)
     if(!this.firstNode) {
       this.firstNode = new Node(value)
       return
