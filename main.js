@@ -12,9 +12,9 @@ class Node {
     this.nextNode = node
   }
 
-  getNext() {
-    return this.nextNode
-  }
+  // getNext() {
+  //   return this.nextNode
+  // }
 
   // isLast () {
   //   return this.nextNode == null
