@@ -31,7 +31,6 @@ class LinkedList {
   }
 
   insertStart(value) {
-    console.log(value)
     if(!this.firstNode) {
       this.firstNode = new Node(value)
       this.lastNode = this.firstNode
