@@ -9,9 +9,6 @@ class Node {
   }
 
   setNext(node) {
-    if(node) {
-  
-    }
     this.nextNode = node
   }
 
