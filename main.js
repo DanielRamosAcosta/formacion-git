@@ -18,6 +18,7 @@ class Node {
 
   isLast () {
     // Te lo borro porque quiero!
+    // Ok!
     return this.nextNode == null
   }
 }
