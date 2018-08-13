@@ -16,9 +16,9 @@ class Node {
     return this.nextNode
   }
 
-  isLast () {
-    return this.nextNode == null
-  }
+  // isLast () {
+  //   return this.nextNode == null
+  // }
 }
 
 
