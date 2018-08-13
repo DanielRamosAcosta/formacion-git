@@ -82,6 +82,7 @@ class LinkedList {
   }
 
   removeEnd () {
+    console.log("Otro console.log!!")
     let currentNode = this.firstNode
 
     while(currentNode.getNext() != this.lastNode) {
