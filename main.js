@@ -83,6 +83,7 @@ class LinkedList {
   }
 
   removeStart () {
+    console.log("hola removeStart")
     this.firstNode = this.firstNode.getNext()
   }
 
