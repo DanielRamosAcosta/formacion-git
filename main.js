@@ -17,7 +17,7 @@ class Node {
   }
 
   isLast () {
-    console.log(this.nextNode)
+    console.warn(this.nextNode)
     return this.nextNode == null
   }
 }
